@@ -46,6 +46,7 @@ function hasCollided(bullet,wall)
     if(damage>10)
     {
       wall.shapeColor=color(255,0,0)
+    
     }
     if(damage<10)
     {

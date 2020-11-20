@@ -54,6 +54,7 @@ function hasCollided(bullet,wall)
     }
     return false
   }
+  //try
 
 
   

@@ -23,7 +23,9 @@ function setup() {
 
 function draw() {
   background(255,255,255);  
-  function hasCollided(bullet,wall)
+
+}
+function hasCollided(bullet,wall)
   {
 
     bulletRightEdge=bullet.x +  bullet.width;
@@ -52,4 +54,3 @@ function draw() {
     drawSprite()
 
   }
-}
